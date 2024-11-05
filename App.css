@@ -1,0 +1,99 @@
+
+.logo-pic{
+    width: 100px;
+}
+li{
+    color: white;
+    font-size: 12px;
+}
+.search{
+    width: 20px;
+}
+.Total-Nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    gap: 20px;
+    position: fixed;
+    width: 1700px;
+    height: 70px;
+}
+.nav-left{
+    display: flex;
+    gap: 13px;
+}
+.nav-right{
+    position: relative;
+    top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-left: 300px;
+}
+.pop{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    right:0;
+    top: 30px;
+    display: none;
+}
+.child-logo{
+    position: relative;
+    height: 100px;
+    width: 50px;
+
+}
+
+.child-logo:hover .pop{
+display: block;
+}
+
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(black, transparent);
+    
+}
+.banner{
+    position: relative;
+}
+
+.title{
+    position:absolute;
+    top: 90px;
+    left: 20px;
+}
+.title-img{
+    width: 300px;
+}
+.card-img{
+     width: 190px;
+    height: 120px;
+    border-radius: 8px;
+}
+ .movies-dispaly{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    position: absolute;
+    overflow-x: scroll;
+    top: 300px;
+    width: 100%;
+}
+.movies-dispaly::-webkit-scrollbar{
+    display: none;
+}
+.cards-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-dark{
+    background-color: #141414;
+}
